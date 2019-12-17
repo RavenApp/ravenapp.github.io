@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RavenApps: Apps for the Ravencoin Community</title>
+        <meta name="description" content="RavenApps is a set of web apps built on the Ravencoin blockchain, implementing gaming, voting, and more.">
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+        <style>
+            body, html {
+                margin: 0;
+                height: 100%;
+                font-family: 'EB Garamond', serif;
+            }
+
+            #gray-top {
+                z-index: -1;
+                width: 100%;
+                height: 50%;
+                position: fixed;
+                top: 0;
+                left: 0;
+                background-color: rgb(214, 214, 214);
+            }
+
+            #ravenapps {
+                width: 100%;
+                font-size: 2.5rem;
+                text-align: center;
+                position: fixed;
+                top: 0;
+            }
+
+            .app {
+                width: 800px;
+                min-width: 50%;
+                max-width: 95%;
+                background-color: white;
+                margin: 2% auto;
+                padding: 2.5% 1%;
+                box-shadow:rgb(204, 204, 204) 0 0 10px 10px;
+                font-size: 1.3rem;
+            }
+
+            #spacer {
+                height: 7%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="gray-top"></div>
+        <div id="ravenapps">RavenApps</div>
+        <div id="spacer"></div>
+        <div class="app">
+            RavenVotes
+            <br>
+            Truly decentralized voting on Ravencoin
+            <br>
+            <a href="https://ravenvotes.com">www.ravenvotes.com</a>
+        </div>
+        <div class="app">
+            SALSA
+            <br>
+            The first ever game on Ravencoin
+            <br>
+            <a href="https://salsa.ravenapps.xyz">salsa.ravenapps.xyz</a>
+        </div>
+        <div class="app">
+            RavenDoc
+            <br>
+            Ravencoin RPC documentation
+            <br>
+            <a href="https://doc.ravenapps.xyz">doc.ravenapps.xyz</a>
+        </div>
+        <div class="app">
+            RavenRPC
+            <br>
+            Ravencoin RPC library in Python, installable via pip
+            <br>
+            <a href="https://github.com/JonPizza/ravenrpc">github</a>
+        </div>
+    </body>
+</html>
